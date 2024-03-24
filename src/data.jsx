@@ -7,7 +7,7 @@ import {
   FaGraduationCap,
   FaCode,
 } from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import { FiFileText, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.png';
 import Work2 from './assets/project-2.png';
@@ -225,12 +225,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React+Vite , Html and CSS',
+        desc: 'React+Vite , Html, CSS and JS',
       },
       {
-        icon: <a href="https://ang-blog-5b9ef.web.app/"><FiExternalLink/></a> ,
+        icon: <a href="https://poojachaudhari06.github.io/Portfolio/"><FiExternalLink/></a> ,
         title: 'Preview : ',
-        desc: <a href='https://ang-blog-5b9ef.web.app/' >'https://ang-blog-5b9ef.web.app/'</a>
+        desc: <a href='https://poojachaudhari06.github.io/Portfolio/' >'https://poojachaudhari06.github.io/Portfolio/'</a>
        
       },
     ],
